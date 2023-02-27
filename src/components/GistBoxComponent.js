@@ -20,6 +20,7 @@ export const GistBoxComponent = (data) => {
      */
     const gistboxData = data.data;
     const files = gistboxData.files;
+    console.log("filesss:",files);
     const forksUrl = gistboxData.forks_url;
     const noOfFiles = Object.keys(files).length;
     const [showModal, setShowModal] = useState(false);
@@ -65,7 +66,7 @@ export const GistBoxComponent = (data) => {
                 <Card className="gist_box">
                     <Card.Body>
                         <Card.Title className="hide_large_text">
-                            <a target="_blank" href={gistboxData.html_url}>{gistboxData.description}</a>
+                            <a className="gist_link" target="_blank" href={gistboxData.html_url}>{gistboxData.description ? gistboxData.description : Object.values(files)[0].filename }</a>
                         </Card.Title>
                         <p className="numberFiles">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

@@ -28,7 +28,11 @@ code {
 }
 
 .gist_box .filename{
-  color: blue;
+  color: #41d3b1;
+}
+
+.gist_link{
+  color: #4e4e4e;
 }
 
 .gist_box_col{
