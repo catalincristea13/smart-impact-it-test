@@ -80,12 +80,12 @@ export const GistBoxComponent = (data) => {
                         </p>
                         {Object.keys(files).map((file, i) => (
                             <div key={i}>
-                                <Row>
+                                <Row onClick={() => handleShow(files[file].raw_url, files[file].language)}>
                                     <Col xs={7}>
                                         <span className="filename">{file}</span>
                                     </Col>
                                     <Col xs={5} className="badge_col">
-                                        <Badge bg="info" onClick={() => handleShow(files[file].raw_url, files[file].language)}>
+                                        <Badge bg="info" >
                                             {files[file].language}
                                         </Badge>
                                     </Col>

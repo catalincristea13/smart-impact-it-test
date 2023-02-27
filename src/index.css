@@ -29,6 +29,7 @@ code {
 
 .gist_box .filename{
   color: #41d3b1;
+  cursor: pointer;
 }
 
 .gist_link{
