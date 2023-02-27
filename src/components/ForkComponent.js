@@ -35,7 +35,7 @@ export const ForkComponent = (data) => {
             {forksData.map((fork, index) => {
                 return (
                     <span>
-                        <a href={fork.owner.html_url} target="_blank">{fork.owner.login}</a>
+                        <a href={fork.html_url} target="_blank">{fork.owner.login}</a>
                         {index != forksData.length - 1 && <span> / </span> }
                     </span>
                 );

@@ -64,7 +64,9 @@ export const GistBoxComponent = (data) => {
             <Col  xs={4} className="gist_box_col">
                 <Card className="gist_box">
                     <Card.Body>
-                        <Card.Title className="hide_large_text">{gistboxData.description}</Card.Title>
+                        <Card.Title className="hide_large_text">
+                            <a target="_blank" href={gistboxData.html_url}>{gistboxData.description}</a>
+                        </Card.Title>
                         <p className="numberFiles">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  className="bi bi-file-earmark-code" viewBox="0 0 16 16">
