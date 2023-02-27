@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Custom css*/
+.card-img, .card-img-top{
+  max-width: 100px;
+}
+
+.gist_box.card{
+  height: 100%;
+  text-align: left;
+}
+
+.gist_box .badge_col{
+  text-align: right;
+  cursor: pointer;
+}
+
+.gist_box .filename{
+  color: blue;
+}
+
+.gist_box_col{
+  margin-bottom: 10px;
+}
+
+.user_profile img{
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.search_user_gist.form-control{
+  max-width: 200px;
+  display: inline-block;
+}
+
+.hide_large_text{
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
