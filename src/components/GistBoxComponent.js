@@ -24,8 +24,8 @@ export const GistBoxComponent = (data) => {
     const forksUrl = gistboxData.forks_url;
     const noOfFiles = Object.keys(files).length;
     const [showModal, setShowModal] = useState(false);
-    const [dataModal, setDataModal] = useState([]);
-    const [syntax_lang, setSyntaxLang] = useState([]);
+    const [dataModal, setDataModal] = useState("");
+    const [syntax_lang, setSyntaxLang] = useState("");
 
     /**
      * Handle modal close
