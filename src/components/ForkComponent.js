@@ -8,7 +8,6 @@ import React, { useState, useEffect } from "react";
  */
 export const ForkComponent = (data) => {
     const forks_url = data.data;
-    console.log("forks_url: ",data);
     const [forksData, setForksData] = useState([]);
 
     const getForsksData = async (url) => {

@@ -20,7 +20,6 @@ export const GistBoxComponent = (data) => {
      */
     const gistboxData = data.data;
     const files = gistboxData.files;
-    console.log("filesss:",files);
     const forksUrl = gistboxData.forks_url;
     const noOfFiles = Object.keys(files).length;
     const [showModal, setShowModal] = useState(false);
