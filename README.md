@@ -21,5 +21,6 @@ Now you can access app on [http://localhost:3000](http://localhost:3000)
 5. Optimize search with a delay of 1 second in order to not create api call everytime is typed a letter
 
 ## Next steps:
-1. Limit number of gists to show(let's say 10 items) and using url parameters "per_page" and "page" and create a "Show more" button to get the next 10 gists and so on to improve UX and performance of page.
+1. Limit number of gists to show(let's say 10 items) and create a "Show more" button to get the next 10 gists and so on 
+   using url parameters "per_page" and "page" to improve UX and performance of page.
 The same will be good for files and forks if is possible.
