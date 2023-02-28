@@ -15,9 +15,10 @@ npm start
 Now you can access app on [http://localhost:3000](http://localhost:3000)
 ## What is done:
 1. Username search
-2. Load gists details(title,date,filename, language) and show code inside a modal
+2. Load gists details(title,date,filename, language)
 3. List of forks and users that forked them
-4. Optimize search with a delay of 1 second in order to not create api call everytime is typed a letter
+4. Show code inside a modal
+5. Optimize search with a delay of 1 second in order to not create api call everytime is typed a letter
 
 ## Next steps:
 1. Limit number of gists to show. Let's say 10 items using url parameters "per_page" and "page" and create a "Show more" button to get the next 10 gists and so on to improve UX and performance of page.
